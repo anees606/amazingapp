@@ -6,7 +6,7 @@ steps:
     - 'gcr.io/$PROJECT_ID/amazingapp:$COMMIT_SHA'
     - '-f'
     - 'blue/Dockerfile'
-    - '.'           # build context is the amazingapp folder (where this YAML lives)
+    - 'blue'   # Build context is the 'blue' folder
 
 - name: 'gcr.io/cloud-builders/docker'
   args:
