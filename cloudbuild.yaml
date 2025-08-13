@@ -20,4 +20,3 @@ steps:
 
 images:
 - 'gcr.io/$PROJECT_ID/amazingapp:$COMMIT_SHA'
-
